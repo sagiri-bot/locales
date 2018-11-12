@@ -17,7 +17,7 @@
         "FAIL_DM": "Failed to send a DM to {{member}}",
         "CATCH": "An error has occurred: {{error}}, please report that on the support server (`support` command)",
         "LESS_PERMS": "You can't use this command on that user.",
-        "NSFW": "This channel needs the prefix `nsfw-` in order to do that!",
+        "NSFW": "This channel needs to be set as NSFW in order to do that!",
         "NO_RESULTS": "No results were found.",
         "SELFROLE": "Check the permissions of the bot. Check also the position of the Sagiri's role (need to be above of the role that you try to give)",
         "slot": {
