@@ -1,0 +1,446 @@
+{
+    "errors": {
+        "INSUFFICIENT_ARGS": "L'utilisation correcte serais : `{{usage}}`",
+        "PATREON": "This command is only available for Patreon. Run the command `patreon` for more info",
+        "NO_IMAGE": "Vous devez joindre une image.",
+        "NO_END_QUOTE": "Il vous manque un guillemet.",
+        "ON_COOLDOWN": "S'il vous plait Calmez-vous! ({{time}} secondes restantes avant de pouvoir encore enter cette commande)",
+        "NO_PERMS": "Vous avez besoin de cette permission {{perms}} pour utiliser cette commande !",
+        "NO_PERMS_BOT": "J'ai besoin de cette permission {{perms}} pour utiliser cette commande !",
+        "NOT_FOUND": "L'utilisateur n'a pas été trouvé.",
+        "NO_PMS": "Vous ne pouvez utiliser cette commande dans les messages directs.",
+        "CLAIMED": "Votre prochaine paie {{currency}} est dans {{next_daily}}",
+        "GIVE_MONEY_HIMSELF": "Malheureusement, vous ne pouvez pas donner de l'argent à vous même.",
+        "GIVE_MONEY_BOT": "Vous ne pouvez pas donner de l'argent au bot.",
+        "GIVE_MONEY_0": "Vous ne pouvez pas donner moins de 0 {{currency}}.",
+        "BALANCE_LOW": "Vous n'avez pas assez d'argent pour faire ça.",
+        "FAIL_DM": "Échec de l'envoie d'un MP à {{member}}.",
+        "CATCH": "Il y a eu une erreur: {{error}}, s'il vous plait signaler ceci sur le serveur support (`support` commande)",
+        "LESS_PERMS": "Vous ne pouvez utiliser cette commande sur cette utilisateur.",
+        "NSFW": "Ce salon a besoin du préfixe `nsfw-` pour pouvoir faire cela !",
+        "NO_RESULTS": "Aucun résultat trouvé.",
+        "SELFROLE": "Check the permissions of the bot. Check also the position of the Sagiri's role (need to be above of the role that you try to give)",
+        "slot": {
+            "MIN": "You need to be min. 150 comets.",
+            "NO_BALANCE": "You don't have enough {{amount}} to bet. (Wallet:  {{wallet}})"
+        },
+        "urban": {
+            "LONG": "Sorry, the definition of that word is too long."
+        },
+        "member": {
+            "NOT_FOUND": "Utilisateur introuvable."
+        },
+        "string": {
+            "NOT_STRING": "{{arg}} must be a string",
+            "MAX": "{{arg}} length cannot be more than {{max}}",
+            "MIN": "{{arg}} length cannot be less than {{min}}",
+            "ONE_OF": "{{arg}} must be one of the following: {{choices}}"
+          },
+          "list": {
+            "MAX": "{{arg}} length cannot contain more than {{max}} items",
+            "MIN": "{{arg}} length cannot contain less than {{min}} items",
+            "MAX_LENGTH": "{{arg}} cannot contain items longer than {{maxLength}}",
+            "MIN_LENGTH": "{{arg}} cannot contain items shorter than {{minLength}}",
+            "DUPES": "{{arg}} cannot contain duplicate values"
+          },
+          "int": {
+            "NOT_INT": "{{arg}} n'est pas un nombre.",
+            "MAX": "{{arg}} must be less than or equals to {{max}}",
+            "MIN": "{{arg}} must be more than or equals to {{min}}"
+        },
+      "channel": {
+        "NOT_FOUND": "Ce salon n'a pas été trouvé."
+        },
+        "mute": {
+            "MUTED": "{{member}} as bien été mis en sourdine"
+        },
+        "unmute": {
+            "NOT_MUTE": "Cet utilisateur n'est pas mis en sourdine."
+        },
+        "tag": {
+            "EXIST": "Un tag avec le même nom existe déjà.",
+            "NO_TAGS": "{{guild}} n'a aucun tag.",
+            "LESS_PERMS": "Vous ne pouvez supprimer que vos propres tag.",
+            "DONT_EXIST": "Ce tag n'existe pas."
+        },
+        "lsr": {
+            "NO_SETTINGS": "Cette guilde n'a pas de rôle."
+        },
+        "reputation": {
+            "ALREADY_GIVEN": "Vous avez déjà donné un point de réputation positif à cette utilisateur.",
+            "SELF_GIVE": "Vous ne pouvez pas changer votre réputation comme cela."
+        },
+        "selfrole": {
+            "NOT_AVAILABLE": "Le rôle {{role}} n'est pas disponible comme un rôle assignable à soi-même.",
+            "NO_SETUP": "Il n'y pas de rôle assignable soi même paramétrés.\nS'il vous plait paramétrer les et réessayer encore."
+        },
+        "strawpoll": {
+            "LESS_OPTIONS": "Pouvez-vous fournir 2 ou plus d'options?",
+            "TOO_OPTIONS": "Pouvez-vous fournir moins de 31 options? C'est trop pour moi."
+        },
+        "unshorten": {
+            "CANT_EXPAND": "Cette URL ne peut pas être agrandi."
+        },
+        "music": {
+            "NO_TRACK": "There is no track name!",
+            "SHUFFLE": "There is not enough music for shuffle.",
+            "SAME_CHANNEL": "You need to be into the same channel as me to skip songs.",
+            "ALREADY_VOTED": "You already voted!",
+            "NO_MUSIC": "There is no music playing!",
+            "NO_VOICECHANNEL": "You need to be in a voice channel!",
+            "NO_PERMS": "I can't connect to this channel!",
+            "NO_VIDEO": "I didn't find a music/video with that name!",
+            "NO_QUEUE": "Playing: N/A",
+            "ALREADY_IN_PAUSE": "The music is already in pause!",
+            "NOT_PAUSED": "The music is not in pause!",
+            "ALREADY_MUSIC": "There is already a stream playing!",
+            "CAPPED": "Your queue has been capped at 2000 songs.",
+            "MAX_LENGTH": "You've reached the limit of 1 hour. You need to upgrade at https://patreon.com/sagiribot to get unlimited time usage."
+        },
+        "role": {
+            "NOT_FOUND": "Role not found."
+        }
+    },
+    "dialog": {
+        "MONEY_GIVE": "Quel utilisateur, voudriez-vous donner votre {{currency}}?",
+        "MONEY_GIVE_AMOUNT": "Combiens de {{currency}} voulez-vous donner ?",
+        "SET_CHANNEL": "Quel channel voudriez-vous mettre en place?",
+        "ban": {
+            "CONFIRM_BAN": "Voulez-vous bannir cette utilisateur? Répondez-moi en écrivant `true` ou `false` dans la discussion."
+        },
+        "hackban": {
+            "INVALID_ID": "This ID is not correct."
+        },
+        "autorole": {
+            "TOGGLE": "Voulez-vous activer ou désactiver les rôles automatiques? Répondez-moi en écrivant `true` ou `false` dans la discussion.",
+            "ROLE": "Quel rôle voulez-vous paramétrer en rôle automatique?"
+        },
+        "leave": {
+            "MESSAGE": "Que devrait être le message de départ ?",
+            "ENABLE_DISABLE": "Voulez-vous activer ou désactivez les messages de départs? Répondez-moi en écrivant `true` ou `false` dans la discussion."
+        },
+        "filter": {
+            "TOGGLE_FILTER": "Voudriez-vous activez ou désactiver le filtre? Répondez-moi en écrivant `true` ou `false` dans la discussion.",
+            "TOGGLE_INVITE_FILTER": "Voudriez-vous activer ou désactiver le filtre d'invitations? Répondez-moi en écrivant `true` ou `false` dans la discussion.",
+            "ADD_REMOVE": "Quel mot voudriez-vous ajouter/enlever ?"
+        },
+        "kick": {
+            "CONFIRM_KICK": "Voulez-vous expulser cette utilisateur? Répondez-moi en écrivant `true` ou `false` dans la discussion."
+        },
+        "logs": {
+            "TOGGLE": "Voulez-vous basculez cette option? Répondez-moi en écrivant `true` ou `false` dans la discussion."
+        },
+        "softban": {
+            "CONFIRM_SOFTBAN": "Voulez-vous softban cette utilisateur? Répondez-moi en écrivant `true` ou `false` dans la discussion."
+        },
+        "welcome": {
+            "MESSAGE": "Que devrais être le message de bienvenue?",
+            "ENABLE_DISABLE": "Voulez-vous activer ou désactiver les messages de bienvenue? Répondez-moi en écrivant `true` ou `false` dans la discussion."
+        },
+        "radio": {
+            "VOLUME": "What the amount of volume you want to set?"
+        }
+    },
+    "games": {
+        "8BALL": "Ma réponse est: {{response}}",
+        "CHOOSE": "Je choisie {{choice}}",
+        "RATE": "je donnerais **{{rate}}** un **{{rating}}**/10"
+    },
+    "success": {
+        "KICK": "{{member}} a bien été expulsé !",
+        "BAN": "{{member}} a bien été bannis.",
+        "SOFTBAN": "{{member}} a bien été softban.",
+        "PREFIX": "`{{prefix}}` has been set for the prefix!",
+        "ACTUAL_PREFIX": "The actual prefix is: `{{prefix}}`",
+        "leave": {
+            "TOGGLE": "L'option de départ a bien été paramétré a {{toggle}}",
+            "SET_CHANNEL": "Le canal de départ a bien été paramétré au canal: {{channel}}",
+            "SET_MESSAGE": "Le méssage de départ a bien été paramétré au méssage: {{message}}"
+        },
+        "autorole": {
+            "ADD": "Les rôles automatiques pour {{guild}} ont bien été paramétré a : `{{role}}`!",
+            "TOGGLE": "Les options des rôles automatiques ont bien été paramétré a : {{toggle}}",
+            "DELETE": "Le rôle automatique `{{role}}` pour {{guild}} a bien été supprimé !"
+        },
+        "filter": {
+            "ADD": "`{{word}}` as été ajouté avec succès à la liste des mots blacklisté.",
+            "REMOVE": "`{{word}}` as été supprimé avec succès à la liste des mots blacklisté.",
+            "TOGGLE_INVITE_FILTER": "Les paramètres du filtre d'invitation as bien été modifié sur {{toggle}}",
+            "TOGGLE": "Les paramètres du filtre ont bien été modifié sur {{toggle}}"
+        },
+        "lockdown": {
+            "STFU": "Les utilisateurs sont maintenant muets. Utiliser .lockdown stop pour arrêter l'effet.",
+            "TALK": "Les utilisateurs peuvent maintenant parler."
+        },
+        "slot": {
+            "LOST": "**You lost!**",
+            "WIN": "**Congratulations!**\nYou won {{win}}"
+        },
+        "logs": {
+            "TOGGLE": "{{reply}} les registres ont été modifier sur {{toggle}} dans le channel `{{name}}`."
+        },
+        "blacklist": "{{channel}} is now blacklisted. I'll not react to commands into that channel, use `whitelist` command for re-authorize command.",
+        "whitelist": "{{channel}} is now whitelisted.",
+        "mute": {
+            "MUTED": "{{member}} has successfully been muted."
+        },
+        "role": {
+            "REMOVED": "`{{role}}` a bien été retiré avec succès de la liste des rôles applicable soi-même.",
+            "ADDED": "`{{role}}` a bien été ajouté avec succès à la liste des rôles applicable soi-même."
+        },
+        "rolexp": {
+            "REMOVED": "`{{role}}` will be gave when a user has {{level}} level.",
+            "ADDED": "`{{role}}` will not be gave when a user has {{level}} level."
+        },
+        "unmute": {
+            "UNMUTED": "{{member}} n'est bien plus mis en sourdine."
+        },
+        "welcome": {
+            "TOGGLE": "Les options de bienvenue ont bien été modifié sur : {{toggle}}",
+            "SET_CHANNEL": "Le canal de bienvenue a bien été modifié sur : {{channel}}",
+            "SET_MESSAGE": "Le message de bienvenue a bien été modifié par : {{message}}"
+        },
+        "tag": {
+            "DELETED": "La marque **{{name}}** as bien été supprimé.",
+            "CREATED": "La marque avec le nom **{{name}}** as été ajouté avec succès."
+        },
+        "reputation": {
+            "GIVE": "Vous avez ajouté un point de réputation positif à {{user}}"
+        },
+        "selfrole": {
+            "REMOVE": "J'ai supprimé le rôle: {{role}}",
+            "GIVE": "J'ai ajouté le rôle : {{role}}"
+        },
+        "setbio": {
+            "UPDATED": "Votre message as été mis à jour avec succès !"
+        },
+        "shorten": {
+            "URL": "J'ai raccourci l'URL: {{url}}"
+        },
+        "unshorten": {
+            "URL": "L'URL original est: {{url}}"
+        },
+        "CLAIMED": "Vous avez reçu {{amount}} sur votre compte.",
+        "CLAIMED_USER": "{{member}} a reçu {{amount}} sur son compte.",
+        "MONEY": "Vous avez {{amount}} !",
+        "MONEY_USER": "{{user}} have {{amount}}!",
+        "GIVE_MONEY": "{{member}} a reçu avec succès {{amount}}",
+        "music": {
+            "ADD_MUSIC": "Added {{music}} to the queue.",
+            "ADD_PLAYLIST": "Added playlist ({{musics}} to the queue.",
+            "SHUFFLE": "The queue is shuffled.",
+            "STOP": "The music has been stopped.",
+            "REPEAT_TOGGLE": "Repeat mode has been turned {{repeat}}",
+            "AUTOPLAY_TOGGLE": "Autoplay mode has been turned {{autoplay}}",
+            "NP": "{{music}}",
+            "AUTHOR": "Requested by {{author}}"
+        }
+    },
+    "random": {
+        "HELP": "You can see the command list [here](https://sagiri.party/commands)\nWe need your help ! [You can donate here](https://www.patreon.com/sagiribot)",
+        "DONATE": "You can help the bot growning by sharing the bot and donate. If you want to donate in one time, here [my paypal.me](https://www.paypal.me/sagiribot) or monthly with the [Patreon](https://www.patreon.com/sagiribot)",
+        "PING_PENDING": "Pinging...",
+        "PING": "{{content}} Temps pris: {{ping}}ms ",
+        "THANKS_DONATORS": "Merci pour votre support !",
+        "REASON": "Raison",
+        "ban": {
+            "CANCEL": "Compris, je ne bannirais pas {{member}} !"
+        },
+        "kick": {
+            "CANCEL": "Compris, je n'expulserais pas {{member}} !"
+        },
+        "softban": {
+            "CANCEL": "Compris, je ne softbanerais {{member}} !"
+        },
+        "avatar": {
+            "AVATAR": "Voici l'avatar de **{{member}}**\n {{avatarURL}}"
+        },
+        "invite": {
+            "MSG": "Si vous avez besoin d'aide, conseils ou retours à propos de quelque chose venez sur le serveur support:\nhttps://discord.gg/XVrGEU7"
+        }
+    },
+    "embed": {
+        "info": {
+            "SERVER": "Pour reporter des bugs, avoir de l'aide,nous donner des retours ou suggestions, venez sur le serveur officiel !",
+            "SERVER_INVITE": "Invitation serveur",
+            "DONATE": "ou directement sur Paypal :",
+            "HELP_US": "Aider-nous as garder Sagiri en fonctionnement !\nNous avons besoin d'une tonne de chargements de chips pour qu'elle puise continuer a fonctionner.",
+            "VERSION": "Version",
+            "INVITE": "Invitation",
+            "LIBRARY": "Librairie",
+            "AUTHOR": "Auteur",
+            "CONTRIBUTORS": "Contributors",
+            "LIST": "`pyraxo#6400` - He did the framework (Sylphy) and help me a lot.\n`NoobLance™#3500` - Helping me for Lavalink.\n`Tonkku#0950` - Doing the website with me."
+        },
+        "role": {
+            "NAME": "Name",
+            "ID": "ID",
+            "CREATION": "Date of Creation",
+            "POSITION": "Position",
+            "COLOR": "Color",
+            "MENTIONABLE": "Mentionable",
+            "MANAGED": "Managed",
+            "HOIST": "Hoist"
+        },
+        "server": {
+            "ID": "ID",
+            "DEFAULT_CHANNEL": "Canal par défaut",
+            "OWNER": "Propriétaire",
+            "REGION": "Région",
+            "MEMBERS": "Membres",
+            "CREATION_DATE": "Date de création",
+            "ROLES": "Rôles"
+        },
+        "user": {
+            "ID": "ID",
+            "STATUS": "Status",
+            "OWNER": "Propriétaire",
+            "JOIN_DATE": "Date de création du compte",
+            "SERVER_JOIN_DATE": "Date de création du serveur",
+            "PLAYING": "Joue"
+        },
+        "stats": {
+            "GUILDS": "Guildes",
+            "CHANNELS": "Cannaux",
+            "SHARDS": "Shards",
+            "USERS": "Utilisateurs",
+            "USAGE": "Utilisation mémoire",
+            "UPTIME": "Temps actif"
+        },
+        "weather": {
+            "AUTHOR": "Données météorologiques",
+            "FOOTER": "à",
+            "WIND_SPEED": "💨 Vitesse du vent",
+            "HUMINTY": "💧 Humidité",
+            "SUNRISE": "🌅 Lever du soleil",
+            "SUNSET": "🌇 Coucher du soloeil",
+            "HIGH": "☀️ Température la plus élevée d'aujourd'hui",
+            "LOW": "☁️️ Température la plus basse d'aujourd'hui",
+            "TEMP": "🌡️ Température",
+            "CONDITION": "🏙️ Condition"
+        },
+        "tag": {
+            "USERNAME": "Nom d'utilisateur",
+            "GUILD": "Guilde",
+            "CREATED_AT": "Créer à",
+            "USES": "Utilisations"
+        },
+        "lsr": {
+            "DESCRIPTION": "Paramètres des rôles pour {{guild}}"
+        },
+        "nsfw": {
+            "RANK": "Rang",
+            "ID": "ID",
+            "RATING": "Évaluation"
+        },
+        "anime": {
+            "TYPE": "Type",
+            "EPISODES": "Episodes",
+            "STATUS": "Status",
+            "SCORE": "Score",
+            "LINK": "Lien"
+        },
+        "urban": {
+            "DEFINITION": "Définition de"
+        },
+        "queue": {
+            "TITLE": "File de musique ({{number}})!",
+            "DESCRIPTION": "Joue: {{title}} et est actuellement ({{time}}) long."
+        },
+        "osu": {
+            "COUNTRY_RANK": "Classement par pays",
+            "ACCURACY": "Précision",
+            "PLAY_COUNT": "Nombre de parties"
+        }
+    },
+    "menus": {
+        "EXIT": "Entrez {{cancel}} pour quitter le menu.",
+        "ERRORED": "Le menu a été fermé :",
+        "EXITED": "Vous avez quitté le menu.",
+        "SELECTION": "Menu de sélection",
+        "ERROR": "Erreur inconnue !  Veuillez le signaler au développeur !",
+        "INPUT": "Tapez le numéro de votre choix dans le chat ou '{{cancel}}}' pour annuler.",
+        "MORE_RESULTS": "Et {{num}} suite...",
+        "selections": {
+            "SET_CHANNEL": "Définir le canal.",
+            "autorole": {
+                "ADD_REMOVE": "Ajouter/supprimer un rôle.",
+                "TOGGLE": "Basculer l'autorole."
+            },
+            "filter": {
+                "ADD_REMOVE": "Ajouter/supprimer un mot dans la liste.",
+                "TOGGLE_INVITE_FILTER": "Basculer le filtre d'invitation.",
+                "TOGGLE_FILTER": "Basculer le filtre."
+            },
+            "leave": {
+                "SET_MESSAGE": "Définir le message de sortie.",
+                "TOGGLE": "Basculer le message de sortie."
+            },
+            "welcome": {
+                "SET_MESSAGE": "Définissez le message de bienvenue.",
+                "TOGGLE": "Basculer le message de bienvenue."
+            }
+        }
+    },
+    "images": {
+        "awoo": {
+            "NO_MENTION": "{{author}} awoo.",
+            "MENTION": "{{author}} awoo {{user}}."
+        },
+        "cry": {
+            "NO_MENTION": "{{author}} pleure.",
+            "MENTION": "{{author}} pleure à cause de {{user}}."
+        },
+        "dab": {
+            "NO_MENTION": "{{author}} dab.",
+            "MENTION": "{{author}} dab sur {{user}}."
+        },
+        "dance": {
+            "NO_MENTION": "{{author}} dance!",
+            "MENTION": "{{author}} dance avec {{user}}!"
+        },
+        "hug": {
+            "NO_MENTION": "{{author}} se câline...",
+            "MENTION": "{{author}} câline {{user}}."
+        },
+        "kiss": {
+            "NO_MENTION": "{{author}} s'embrasse...",
+            "MENTION": "{{author}} embrasse {{user}}."
+        },
+        "lewd": {
+            "NO_MENTION": "{{author}} est obscène!",
+            "MENTION": "{{author}} dit à {{user}} est obscène."
+        },
+        "lick": {
+            "NO_MENTION": "{{author}} lèche.. une glace ?",
+            "MENTION": "{{author}} lèche {{user}}."
+        },
+        "owo": "Qu'est-ce que c'est?",
+        "pat": {
+            "NO_MENTION": "{{author}} caresse.. un chien ?",
+            "MENTION": "{{author}} caresse {{user}}."
+        },
+        "pout": {
+            "NO_MENTION": "{{author}} pout.. a loli?",
+            "MENTION": "{{author}} pout {{user}}."
+        },
+        "slap": {
+            "NO_MENTION": "{{author}} se gifle...",
+            "MENTION": "{{author}} gifle {{user}}."
+        },
+        "sleepy": "{{author}} se sent somnolent 💤.",
+        "sumfuk": {
+            "NO_MENTION": "{{author}} veut faire l'amour.",
+            "MENTION": "{{author}} fait l'amour à {{user}}."
+        },
+        "triggered": {
+            "NO_MENTION": "{{author}} a le seum.",
+            "MENTION": "{{author}} a le seum à cause de {{user}}."
+        }
+    },
+    "collector": {
+        "timeout": "Fin du délai après {{timeout}}s!",
+        "max": "Dépassé {{{max}} essaie, réessayez plus tard!",
+        "maxMatches": "Exceeded {{maxMatches}} matches!"
+    }
+}
