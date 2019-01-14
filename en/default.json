@@ -243,7 +243,7 @@
         }
     },
     "random": {
-        "HELP": "You can see the command list [here](https://sagiri.party/commands)\nWe need your help ! [You can donate here](https://www.patreon.com/sagiribot)",
+        "HELP": "You can see the command list https://sagiri.party/commands",
         "DONATE": "You can help the bot growning by sharing the bot and donate. If you want to donate in one time, here [my paypal.me](https://www.paypal.me/sagiribot) or monthly with the [Patreon](https://www.patreon.com/sagiribot)",
         "PING_PENDING": "Pinging...",
         "PING": "{{content}} Time taken: {{ping}}ms!",
@@ -262,22 +262,10 @@
             "AVATAR": "Here's the avatar of **{{member}}**\n {{avatarURL}}."
         },
         "invite": {
-            "MSG": "If you need help, have suggestions or feedback about something come on the support server: https://discord.gg/XVrGEU7!"
+            "MSG": "Support server: https://discord.gg/XVrGEU7 \nInvite: https://sagiri.party/invite"
         }
     },
     "embed": {
-        "info": {
-            "SERVER": "To report bugs, get support, give us some feedback or suggestions, come on the official server!",
-            "SERVER_INVITE": "Server invite",
-            "DONATE": "or directly on Paypal:",
-            "HELP_US": "Help us to keep Sagiri running !\nWe need a ton load of pudding in order for her to keep working.",
-            "VERSION": "Version",
-            "INVITE": "Invite",
-            "LIBRARY": "Library",
-            "AUTHOR": "Author",
-            "CONTRIBUTORS": "Contributors",
-            "LIST": "`pyraxo#6400` - He did the framework (Sylphy) and help me a lot.\n`NoobLance™#3500` - Helping me for Lavalink.\n`Tonkku#0950` - Doing the website with me."
-        },
         "role": {
             "NAME": "Name",
             "ID": "ID",
