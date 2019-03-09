@@ -238,7 +238,7 @@
             "STOP": "The music has been stopped.",
             "REPEAT_TOGGLE": "Repeat mode has been turned {{repeat}}",
             "AUTOPLAY_TOGGLE": "Autoplay mode has been turned {{autoplay}}",
-            "NP": "{{music}}",
+            "NP": "Now playing: {{music}}",
             "AUTHOR": "Requested by {{author}}"
         }
     },
